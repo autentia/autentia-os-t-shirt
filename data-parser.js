@@ -29,6 +29,14 @@ function formatRow(row) {
   return formattedRow
 }
 
+function writeToJson(data) {
+  return new Promise(resolve => {
+    fs.writeFile('./data.json', JSON.stringify(data, null, 2), (err) => {
+      resolve()
+    })
+  })
+}
+
 const findProjectsWithCommonTechs = (techToFind, projects) => {
   const foundProjects = []
 
@@ -47,9 +55,16 @@ const removeDuplicates = array => Array.from(new Set(array))
 
 // Given a tech and a set of projects which have common techs
 const extractRelatedTech = (tech, projectsWithRelatedTechs) => {
+  // This means that there were some matches
   if (projectsWithRelatedTechs.length > 1) {
     return projectsWithRelatedTechs.reduce((previousProject, currentProject) => {
-      const relatedTechs = [...previousProject.techs, ...currentProject.techs]
+      // As there are matching related techs we aggregate all the techs
+      let relatedTechs = []
+      if (previousProject.techs !== undefined) {
+        relatedTechs = [...previousProject.techs]
+      }
+
+      relatedTechs.push(...currentProject.techs)
       const relatedTechsWithoutDuplicates = removeDuplicates(relatedTechs)
       const relatedTechsWithoutDuplicatesAndSelf = relatedTechsWithoutDuplicates.filter(e => tech !== e)
       const aggregatedTech = {
@@ -59,6 +74,7 @@ const extractRelatedTech = (tech, projectsWithRelatedTechs) => {
       return [aggregatedTech]
     })
   } else {
+    // If there are no matches just return the techs of that project
     return [{
       name: tech,
       relatedTechs: projectsWithRelatedTechs[0].techs.filter(e => tech !== e)
@@ -98,3 +114,9 @@ module.exports = {
   extractRelatedTech,
   extractRelatedTechs
 }
+
+formatData()
+  .then(data => {
+    const techs = extractRelatedTechs(data)
+    writeToJson(techs)
+  })
