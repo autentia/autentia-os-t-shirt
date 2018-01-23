@@ -1,16 +1,1241 @@
 [
   {
-    "name": "Spring",
-    "relatedTechs": ["Java"]
-  }, {
-    "name": "Java",
-    "relatedTechs": ["MySQL"]
-  }, {
-    "name": "MySQL",
-    "relatedTechs:": ["Java"]
+    "name": "ElasticSearch",
+    "relatedTechs": [
+      "Spring",
+      "Spring Batch",
+      "Jersey",
+      "Jackson",
+      "Contract testing",
+      "Java",
+      "Maven",
+      "PivotalTracker",
+      "Akka",
+      "Apache",
+      "Artifactory",
+      "Gitlab",
+      "Grafana",
+      "Hazelcast",
+      "JMeter",
+      "MyBatis",
+      "Oracle",
+      "Redis",
+      "Scala",
+      "Scrum",
+      "SoapUI",
+      "Sonarqube",
+      "Spring Security",
+      "WSO2",
+      "Jenkins",
+      "Jira",
+      "Groovy"
+    ]
   },
   {
-    "name": "Kotlin",
-    "relatedTechs": ["Java"]
+    "name": "Spring",
+    "relatedTechs": [
+      "Akka",
+      "Cassandra",
+      "Confluence",
+      "Gitlab",
+      "Kafka",
+      "Java",
+      "Scala",
+      "Scrum",
+      "Maven"
+    ]
+  },
+  {
+    "name": "Spring Batch",
+    "relatedTechs": [
+      "ElasticSearch",
+      "Spring",
+      "Jersey",
+      "Jackson",
+      "Contract testing",
+      "Java",
+      "Maven",
+      "PivotalTracker"
+    ]
+  },
+  {
+    "name": "Jersey",
+    "relatedTechs": [
+      "ElasticSearch",
+      "Spring",
+      "Spring Batch",
+      "Jackson",
+      "Contract testing",
+      "Java",
+      "Maven",
+      "PivotalTracker"
+    ]
+  },
+  {
+    "name": "Jackson",
+    "relatedTechs": [
+      "ElasticSearch",
+      "Spring",
+      "Spring Batch",
+      "Jersey",
+      "Contract testing",
+      "Java",
+      "Maven",
+      "PivotalTracker",
+      "Akka",
+      "Apache",
+      "Artifactory",
+      "Gitlab",
+      "Grafana",
+      "Hazelcast",
+      "JMeter",
+      "MyBatis",
+      "Oracle",
+      "Redis",
+      "Scala",
+      "Scrum",
+      "SoapUI",
+      "Sonarqube",
+      "Spring Security",
+      "WSO2",
+      "Jenkins",
+      "Jira",
+      "Groovy"
+    ]
+  },
+  {
+    "name": "Contract testing",
+    "relatedTechs": [
+      "ElasticSearch",
+      "Spring",
+      "Spring Batch",
+      "Jersey",
+      "Jackson",
+      "Java",
+      "Maven",
+      "PivotalTracker"
+    ]
+  },
+  {
+    "name": "Java",
+    "relatedTechs": [
+      "Akka",
+      "Cassandra",
+      "Confluence",
+      "Gitlab",
+      "Kafka",
+      "Scala",
+      "Scrum",
+      "Spring",
+      "Maven"
+    ]
+  },
+  {
+    "name": "Maven",
+    "relatedTechs": [
+      "Akka",
+      "Cassandra",
+      "Confluence",
+      "Gitlab",
+      "Kafka",
+      "Java",
+      "Scala",
+      "Scrum",
+      "Spring"
+    ]
+  },
+  {
+    "name": "PivotalTracker",
+    "relatedTechs": [
+      "ElasticSearch",
+      "Spring",
+      "Spring Batch",
+      "Jersey",
+      "Jackson",
+      "Contract testing",
+      "Java",
+      "Maven"
+    ]
+  },
+  {
+    "name": "Akka",
+    "relatedTechs": [
+      "Apache",
+      "Artifactory",
+      "ElasticSearch",
+      "Gitlab",
+      "Grafana",
+      "Hazelcast",
+      "Jackson",
+      "JMeter",
+      "MyBatis",
+      "Oracle",
+      "Redis",
+      "Scala",
+      "Scrum",
+      "SoapUI",
+      "Sonarqube",
+      "Spring",
+      "Spring Security",
+      "WSO2",
+      "Jenkins",
+      "Jira",
+      "Groovy",
+      "Cassandra",
+      "Confluence",
+      "Kafka",
+      "Java",
+      "Maven"
+    ]
+  },
+  {
+    "name": "Apache",
+    "relatedTechs": [
+      "Akka",
+      "Artifactory",
+      "ElasticSearch",
+      "Gitlab",
+      "Grafana",
+      "Hazelcast",
+      "Jackson",
+      "JMeter",
+      "MyBatis",
+      "Oracle",
+      "Redis",
+      "Scala",
+      "Scrum",
+      "SoapUI",
+      "Sonarqube",
+      "Spring",
+      "Spring Security",
+      "WSO2",
+      "Jenkins",
+      "Jira",
+      "Groovy"
+    ]
+  },
+  {
+    "name": "Artifactory",
+    "relatedTechs": [
+      "Akka",
+      "Apache",
+      "ElasticSearch",
+      "Gitlab",
+      "Grafana",
+      "Hazelcast",
+      "Jackson",
+      "JMeter",
+      "MyBatis",
+      "Oracle",
+      "Redis",
+      "Scala",
+      "Scrum",
+      "SoapUI",
+      "Sonarqube",
+      "Spring",
+      "Spring Security",
+      "WSO2",
+      "Jenkins",
+      "Jira",
+      "Groovy"
+    ]
+  },
+  {
+    "name": "Gitlab",
+    "relatedTechs": [
+      "Akka",
+      "Apache",
+      "Artifactory",
+      "ElasticSearch",
+      "Grafana",
+      "Hazelcast",
+      "Jackson",
+      "JMeter",
+      "MyBatis",
+      "Oracle",
+      "Redis",
+      "Scala",
+      "Scrum",
+      "SoapUI",
+      "Sonarqube",
+      "Spring",
+      "Spring Security",
+      "WSO2",
+      "Jenkins",
+      "Jira",
+      "Groovy",
+      "Cassandra",
+      "Confluence",
+      "Kafka",
+      "Java",
+      "Maven"
+    ]
+  },
+  {
+    "name": "Grafana",
+    "relatedTechs": [
+      "Akka",
+      "Apache",
+      "Artifactory",
+      "ElasticSearch",
+      "Gitlab",
+      "Hazelcast",
+      "Jackson",
+      "JMeter",
+      "MyBatis",
+      "Oracle",
+      "Redis",
+      "Scala",
+      "Scrum",
+      "SoapUI",
+      "Sonarqube",
+      "Spring",
+      "Spring Security",
+      "WSO2",
+      "Jenkins",
+      "Jira",
+      "Groovy"
+    ]
+  },
+  {
+    "name": "Hazelcast",
+    "relatedTechs": [
+      "Akka",
+      "Apache",
+      "Artifactory",
+      "ElasticSearch",
+      "Gitlab",
+      "Grafana",
+      "Jackson",
+      "JMeter",
+      "MyBatis",
+      "Oracle",
+      "Redis",
+      "Scala",
+      "Scrum",
+      "SoapUI",
+      "Sonarqube",
+      "Spring",
+      "Spring Security",
+      "WSO2",
+      "Jenkins",
+      "Jira",
+      "Groovy"
+    ]
+  },
+  {
+    "name": "JMeter",
+    "relatedTechs": [
+      "Akka",
+      "Apache",
+      "Artifactory",
+      "ElasticSearch",
+      "Gitlab",
+      "Grafana",
+      "Hazelcast",
+      "Jackson",
+      "MyBatis",
+      "Oracle",
+      "Redis",
+      "Scala",
+      "Scrum",
+      "SoapUI",
+      "Sonarqube",
+      "Spring",
+      "Spring Security",
+      "WSO2",
+      "Jenkins",
+      "Jira",
+      "Groovy"
+    ]
+  },
+  {
+    "name": "MyBatis",
+    "relatedTechs": [
+      "Akka",
+      "Apache",
+      "Artifactory",
+      "ElasticSearch",
+      "Gitlab",
+      "Grafana",
+      "Hazelcast",
+      "Jackson",
+      "JMeter",
+      "Oracle",
+      "Redis",
+      "Scala",
+      "Scrum",
+      "SoapUI",
+      "Sonarqube",
+      "Spring",
+      "Spring Security",
+      "WSO2",
+      "Jenkins",
+      "Jira",
+      "Groovy"
+    ]
+  },
+  {
+    "name": "Oracle",
+    "relatedTechs": [
+      "Akka",
+      "Apache",
+      "Artifactory",
+      "ElasticSearch",
+      "Gitlab",
+      "Grafana",
+      "Hazelcast",
+      "Jackson",
+      "JMeter",
+      "MyBatis",
+      "Redis",
+      "Scala",
+      "Scrum",
+      "SoapUI",
+      "Sonarqube",
+      "Spring",
+      "Spring Security",
+      "WSO2",
+      "Jenkins",
+      "Jira",
+      "Groovy"
+    ]
+  },
+  {
+    "name": "Redis",
+    "relatedTechs": [
+      "Akka",
+      "Apache",
+      "Artifactory",
+      "ElasticSearch",
+      "Gitlab",
+      "Grafana",
+      "Hazelcast",
+      "Jackson",
+      "JMeter",
+      "MyBatis",
+      "Oracle",
+      "Scala",
+      "Scrum",
+      "SoapUI",
+      "Sonarqube",
+      "Spring",
+      "Spring Security",
+      "WSO2",
+      "Jenkins",
+      "Jira",
+      "Groovy"
+    ]
+  },
+  {
+    "name": "Scala",
+    "relatedTechs": [
+      "Akka",
+      "Apache",
+      "Artifactory",
+      "ElasticSearch",
+      "Gitlab",
+      "Grafana",
+      "Hazelcast",
+      "Jackson",
+      "JMeter",
+      "MyBatis",
+      "Oracle",
+      "Redis",
+      "Scrum",
+      "SoapUI",
+      "Sonarqube",
+      "Spring",
+      "Spring Security",
+      "WSO2",
+      "Jenkins",
+      "Jira",
+      "Groovy",
+      "Cassandra",
+      "Confluence",
+      "Kafka",
+      "Java",
+      "Maven"
+    ]
+  },
+  {
+    "name": "Scrum",
+    "relatedTechs": [
+      "Akka",
+      "Apache",
+      "Artifactory",
+      "ElasticSearch",
+      "Gitlab",
+      "Grafana",
+      "Hazelcast",
+      "Jackson",
+      "JMeter",
+      "MyBatis",
+      "Oracle",
+      "Redis",
+      "Scala",
+      "SoapUI",
+      "Sonarqube",
+      "Spring",
+      "Spring Security",
+      "WSO2",
+      "Jenkins",
+      "Jira",
+      "Groovy",
+      "Cassandra",
+      "Confluence",
+      "Kafka",
+      "Java",
+      "Maven"
+    ]
+  },
+  {
+    "name": "SoapUI",
+    "relatedTechs": [
+      "Akka",
+      "Apache",
+      "Artifactory",
+      "ElasticSearch",
+      "Gitlab",
+      "Grafana",
+      "Hazelcast",
+      "Jackson",
+      "JMeter",
+      "MyBatis",
+      "Oracle",
+      "Redis",
+      "Scala",
+      "Scrum",
+      "Sonarqube",
+      "Spring",
+      "Spring Security",
+      "WSO2",
+      "Jenkins",
+      "Jira",
+      "Groovy"
+    ]
+  },
+  {
+    "name": "Sonarqube",
+    "relatedTechs": [
+      "Akka",
+      "Apache",
+      "Artifactory",
+      "ElasticSearch",
+      "Gitlab",
+      "Grafana",
+      "Hazelcast",
+      "Jackson",
+      "JMeter",
+      "MyBatis",
+      "Oracle",
+      "Redis",
+      "Scala",
+      "Scrum",
+      "SoapUI",
+      "Spring",
+      "Spring Security",
+      "WSO2",
+      "Jenkins",
+      "Jira",
+      "Groovy"
+    ]
+  },
+  {
+    "name": "Spring Security",
+    "relatedTechs": [
+      "Akka",
+      "Apache",
+      "Artifactory",
+      "ElasticSearch",
+      "Gitlab",
+      "Grafana",
+      "Hazelcast",
+      "Jackson",
+      "JMeter",
+      "MyBatis",
+      "Oracle",
+      "Redis",
+      "Scala",
+      "Scrum",
+      "SoapUI",
+      "Sonarqube",
+      "Spring",
+      "WSO2",
+      "Jenkins",
+      "Jira",
+      "Groovy"
+    ]
+  },
+  {
+    "name": "WSO2",
+    "relatedTechs": [
+      "Akka",
+      "Apache",
+      "Artifactory",
+      "ElasticSearch",
+      "Gitlab",
+      "Grafana",
+      "Hazelcast",
+      "Jackson",
+      "JMeter",
+      "MyBatis",
+      "Oracle",
+      "Redis",
+      "Scala",
+      "Scrum",
+      "SoapUI",
+      "Sonarqube",
+      "Spring",
+      "Spring Security",
+      "Jenkins",
+      "Jira",
+      "Groovy"
+    ]
+  },
+  {
+    "name": "Jenkins",
+    "relatedTechs": [
+      "Akka",
+      "Apache",
+      "Artifactory",
+      "ElasticSearch",
+      "Gitlab",
+      "Grafana",
+      "Hazelcast",
+      "Jackson",
+      "JMeter",
+      "MyBatis",
+      "Oracle",
+      "Redis",
+      "Scala",
+      "Scrum",
+      "SoapUI",
+      "Sonarqube",
+      "Spring",
+      "Spring Security",
+      "WSO2",
+      "Jira",
+      "Groovy",
+      "Vue",
+      "JavaScript",
+      "GraphQL",
+      ".NET",
+      "Webpack",
+      "Jest",
+      "Selenium",
+      "Bitbucket",
+      "Git",
+      "MySQL"
+    ]
+  },
+  {
+    "name": "Jira",
+    "relatedTechs": [
+      "Akka",
+      "Apache",
+      "Artifactory",
+      "ElasticSearch",
+      "Gitlab",
+      "Grafana",
+      "Hazelcast",
+      "Jackson",
+      "JMeter",
+      "MyBatis",
+      "Oracle",
+      "Redis",
+      "Scala",
+      "Scrum",
+      "SoapUI",
+      "Sonarqube",
+      "Spring",
+      "Spring Security",
+      "WSO2",
+      "Jenkins",
+      "Groovy",
+      "Vue",
+      "JavaScript",
+      "GraphQL",
+      ".NET",
+      "Webpack",
+      "Jest",
+      "Selenium",
+      "Bitbucket",
+      "Git",
+      "MySQL"
+    ]
+  },
+  {
+    "name": "Groovy",
+    "relatedTechs": [
+      "Akka",
+      "Apache",
+      "Artifactory",
+      "ElasticSearch",
+      "Gitlab",
+      "Grafana",
+      "Hazelcast",
+      "Jackson",
+      "JMeter",
+      "MyBatis",
+      "Oracle",
+      "Redis",
+      "Scala",
+      "Scrum",
+      "SoapUI",
+      "Sonarqube",
+      "Spring",
+      "Spring Security",
+      "WSO2",
+      "Jenkins",
+      "Jira"
+    ]
+  },
+  {
+    "name": "Vue",
+    "relatedTechs": [
+      "JavaScript",
+      "GraphQL",
+      "Jenkins",
+      ".NET",
+      "Webpack",
+      "Jest",
+      "Selenium",
+      "Bitbucket",
+      "Git",
+      "MySQL",
+      "Jira"
+    ]
+  },
+  {
+    "name": "JavaScript",
+    "relatedTechs": [
+      "Vue",
+      "GraphQL",
+      "Jenkins",
+      ".NET",
+      "Webpack",
+      "Jest",
+      "Selenium",
+      "Bitbucket",
+      "Git",
+      "MySQL",
+      "Jira",
+      "Android",
+      "iOS",
+      "Viper",
+      "TypeScript",
+      "Cordova",
+      "Confluence",
+      "Jasmine",
+      "Grunt",
+      "Underscore",
+      "Moment",
+      "jQuery"
+    ]
+  },
+  {
+    "name": "GraphQL",
+    "relatedTechs": [
+      "Vue",
+      "JavaScript",
+      "Jenkins",
+      ".NET",
+      "Webpack",
+      "Jest",
+      "Selenium",
+      "Bitbucket",
+      "Git",
+      "MySQL",
+      "Jira"
+    ]
+  },
+  {
+    "name": ".NET",
+    "relatedTechs": [
+      "Vue",
+      "JavaScript",
+      "GraphQL",
+      "Jenkins",
+      "Webpack",
+      "Jest",
+      "Selenium",
+      "Bitbucket",
+      "Git",
+      "MySQL",
+      "Jira"
+    ]
+  },
+  {
+    "name": "Webpack",
+    "relatedTechs": [
+      "Vue",
+      "JavaScript",
+      "GraphQL",
+      "Jenkins",
+      ".NET",
+      "Jest",
+      "Selenium",
+      "Bitbucket",
+      "Git",
+      "MySQL",
+      "Jira"
+    ]
+  },
+  {
+    "name": "Jest",
+    "relatedTechs": [
+      "Vue",
+      "JavaScript",
+      "GraphQL",
+      "Jenkins",
+      ".NET",
+      "Webpack",
+      "Selenium",
+      "Bitbucket",
+      "Git",
+      "MySQL",
+      "Jira"
+    ]
+  },
+  {
+    "name": "Selenium",
+    "relatedTechs": [
+      "Vue",
+      "JavaScript",
+      "GraphQL",
+      "Jenkins",
+      ".NET",
+      "Webpack",
+      "Jest",
+      "Bitbucket",
+      "Git",
+      "MySQL",
+      "Jira"
+    ]
+  },
+  {
+    "name": "Bitbucket",
+    "relatedTechs": [
+      "Vue",
+      "JavaScript",
+      "GraphQL",
+      "Jenkins",
+      ".NET",
+      "Webpack",
+      "Jest",
+      "Selenium",
+      "Git",
+      "MySQL",
+      "Jira"
+    ]
+  },
+  {
+    "name": "Git",
+    "relatedTechs": [
+      "Vue",
+      "JavaScript",
+      "GraphQL",
+      "Jenkins",
+      ".NET",
+      "Webpack",
+      "Jest",
+      "Selenium",
+      "Bitbucket",
+      "MySQL",
+      "Jira"
+    ]
+  },
+  {
+    "name": "MySQL",
+    "relatedTechs": [
+      "Vue",
+      "JavaScript",
+      "GraphQL",
+      "Jenkins",
+      ".NET",
+      "Webpack",
+      "Jest",
+      "Selenium",
+      "Bitbucket",
+      "Git",
+      "Jira"
+    ]
+  },
+  {
+    "name": "Final Cut",
+    "relatedTechs": [
+      "Illustrator",
+      "Adobe Premiere",
+      "Photoshop",
+      "Trello"
+    ]
+  },
+  {
+    "name": "Illustrator",
+    "relatedTechs": [
+      "Final Cut",
+      "Adobe Premiere",
+      "Photoshop",
+      "Trello"
+    ]
+  },
+  {
+    "name": "Adobe Premiere",
+    "relatedTechs": [
+      "Final Cut",
+      "Illustrator",
+      "Photoshop",
+      "Trello"
+    ]
+  },
+  {
+    "name": "Photoshop",
+    "relatedTechs": [
+      "Final Cut",
+      "Illustrator",
+      "Adobe Premiere",
+      "Trello"
+    ]
+  },
+  {
+    "name": "Trello",
+    "relatedTechs": [
+      "Final Cut",
+      "Illustrator",
+      "Adobe Premiere",
+      "Photoshop"
+    ]
+  },
+  {
+    "name": "Ionic",
+    "relatedTechs": [
+      "TypeScript",
+      "SCSS",
+      "Node",
+      "Nest",
+      "NPM",
+      "RxJS",
+      "Web Sockets"
+    ]
+  },
+  {
+    "name": "TypeScript",
+    "relatedTechs": [
+      "Ionic",
+      "SCSS",
+      "Node",
+      "Nest",
+      "NPM",
+      "RxJS",
+      "Web Sockets",
+      "Android",
+      "iOS",
+      "Viper",
+      "JavaScript",
+      "Cordova",
+      "Confluence",
+      "Jasmine",
+      "Grunt",
+      "Underscore",
+      "Moment",
+      "jQuery"
+    ]
+  },
+  {
+    "name": "SCSS",
+    "relatedTechs": [
+      "Ionic",
+      "TypeScript",
+      "Node",
+      "Nest",
+      "NPM",
+      "RxJS",
+      "Web Sockets"
+    ]
+  },
+  {
+    "name": "Node",
+    "relatedTechs": [
+      "Ionic",
+      "TypeScript",
+      "SCSS",
+      "Nest",
+      "NPM",
+      "RxJS",
+      "Web Sockets"
+    ]
+  },
+  {
+    "name": "Nest",
+    "relatedTechs": [
+      "Ionic",
+      "TypeScript",
+      "SCSS",
+      "Node",
+      "NPM",
+      "RxJS",
+      "Web Sockets"
+    ]
+  },
+  {
+    "name": "NPM",
+    "relatedTechs": [
+      "Ionic",
+      "TypeScript",
+      "SCSS",
+      "Node",
+      "Nest",
+      "RxJS",
+      "Web Sockets"
+    ]
+  },
+  {
+    "name": "RxJS",
+    "relatedTechs": [
+      "Ionic",
+      "TypeScript",
+      "SCSS",
+      "Node",
+      "Nest",
+      "NPM",
+      "Web Sockets"
+    ]
+  },
+  {
+    "name": "Web Sockets",
+    "relatedTechs": [
+      "Ionic",
+      "TypeScript",
+      "SCSS",
+      "Node",
+      "Nest",
+      "NPM",
+      "RxJS"
+    ]
+  },
+  {
+    "name": "Android",
+    "relatedTechs": [
+      "iOS",
+      "Viper",
+      "JavaScript",
+      "TypeScript",
+      "Cordova",
+      "Confluence",
+      "Jasmine",
+      "Grunt",
+      "Underscore",
+      "Moment",
+      "jQuery"
+    ]
+  },
+  {
+    "name": "iOS",
+    "relatedTechs": [
+      "Android",
+      "Viper",
+      "JavaScript",
+      "TypeScript",
+      "Cordova",
+      "Confluence",
+      "Jasmine",
+      "Grunt",
+      "Underscore",
+      "Moment",
+      "jQuery"
+    ]
+  },
+  {
+    "name": "Viper",
+    "relatedTechs": [
+      "Android",
+      "iOS",
+      "JavaScript",
+      "TypeScript",
+      "Cordova",
+      "Confluence",
+      "Jasmine",
+      "Grunt",
+      "Underscore",
+      "Moment",
+      "jQuery"
+    ]
+  },
+  {
+    "name": "Cordova",
+    "relatedTechs": [
+      "Android",
+      "iOS",
+      "Viper",
+      "JavaScript",
+      "TypeScript",
+      "Confluence",
+      "Jasmine",
+      "Grunt",
+      "Underscore",
+      "Moment",
+      "jQuery"
+    ]
+  },
+  {
+    "name": "Confluence",
+    "relatedTechs": [
+      "Android",
+      "iOS",
+      "Viper",
+      "JavaScript",
+      "TypeScript",
+      "Cordova",
+      "Jasmine",
+      "Grunt",
+      "Underscore",
+      "Moment",
+      "jQuery",
+      "Akka",
+      "Cassandra",
+      "Gitlab",
+      "Kafka",
+      "Java",
+      "Scala",
+      "Scrum",
+      "Spring",
+      "Maven"
+    ]
+  },
+  {
+    "name": "Jasmine",
+    "relatedTechs": [
+      "Android",
+      "iOS",
+      "Viper",
+      "JavaScript",
+      "TypeScript",
+      "Cordova",
+      "Confluence",
+      "Grunt",
+      "Underscore",
+      "Moment",
+      "jQuery"
+    ]
+  },
+  {
+    "name": "Grunt",
+    "relatedTechs": [
+      "Android",
+      "iOS",
+      "Viper",
+      "JavaScript",
+      "TypeScript",
+      "Cordova",
+      "Confluence",
+      "Jasmine",
+      "Underscore",
+      "Moment",
+      "jQuery"
+    ]
+  },
+  {
+    "name": "Underscore",
+    "relatedTechs": [
+      "Android",
+      "iOS",
+      "Viper",
+      "JavaScript",
+      "TypeScript",
+      "Cordova",
+      "Confluence",
+      "Jasmine",
+      "Grunt",
+      "Moment",
+      "jQuery"
+    ]
+  },
+  {
+    "name": "Moment",
+    "relatedTechs": [
+      "Android",
+      "iOS",
+      "Viper",
+      "JavaScript",
+      "TypeScript",
+      "Cordova",
+      "Confluence",
+      "Jasmine",
+      "Grunt",
+      "Underscore",
+      "jQuery"
+    ]
+  },
+  {
+    "name": "jQuery",
+    "relatedTechs": [
+      "Android",
+      "iOS",
+      "Viper",
+      "JavaScript",
+      "TypeScript",
+      "Cordova",
+      "Confluence",
+      "Jasmine",
+      "Grunt",
+      "Underscore",
+      "Moment"
+    ]
+  },
+  {
+    "name": "JUnit",
+    "relatedTechs": [
+      "Maven",
+      "Java",
+      "SAML",
+      "ADFS"
+    ]
+  },
+  {
+    "name": "SAML",
+    "relatedTechs": [
+      "Maven",
+      "JUnit",
+      "Java",
+      "ADFS"
+    ]
+  },
+  {
+    "name": "ADFS",
+    "relatedTechs": [
+      "Maven",
+      "JUnit",
+      "Java",
+      "SAML"
+    ]
+  },
+  {
+    "name": "Cassandra",
+    "relatedTechs": [
+      "Akka",
+      "Confluence",
+      "Gitlab",
+      "Kafka",
+      "Java",
+      "Scala",
+      "Scrum",
+      "Spring",
+      "Maven"
+    ]
+  },
+  {
+    "name": "Kafka",
+    "relatedTechs": [
+      "Akka",
+      "Cassandra",
+      "Confluence",
+      "Gitlab",
+      "Java",
+      "Scala",
+      "Scrum",
+      "Spring",
+      "Maven"
+    ]
   }
 ]
