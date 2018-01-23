@@ -79,6 +79,27 @@ describe('extractRelatedTech', () => {
       }
     ])
   })
+
+  test('parses projects into another shape even if they don\'t have related tech', () => {
+    const projects = [
+      { 
+        name: 'foo',
+        techs: [
+          'bar',
+          'baz',
+        ]
+      }
+    ]
+  
+    const techs = dataParser.extractRelatedTech('bar', projects)
+  
+    expect(techs).toEqual([
+      {
+        name: 'bar',
+        relatedTechs: ['baz']
+      }
+    ])
+  })
 })
 
 describe('extractRelatedTechs', () => {
@@ -111,16 +132,16 @@ describe('extractRelatedTechs', () => {
       },
       {
         name: 'baz',
-        relatedTechs: []
+        relatedTechs: ['bar']
       },
       {
         name: 'quux',
-        relatedTechs: []
+        relatedTechs: ['bar']
       }
     ])
   })
 
-  test.skip('has as related technology as itself when there are no related techs', () => {
+  test('has as related technology as itself when there are no related techs', () => {
     const projects = [
       { 
         name: 'foo',
