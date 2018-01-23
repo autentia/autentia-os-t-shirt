@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.mjs",
   "scripts": {
-    "start": "browser-sync start --server --files *.css *.mjs *.html",
+    "start": "browser-sync start --server --files *.css *.js *.html",
     "test": "jest"
   },
   "license": "MIT",
