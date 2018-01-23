@@ -9,6 +9,6 @@ console.log('Starting...')
 formatter.formatData(csvPath)
   .then(data => {
     const techs = parser.extractRelatedTechs(data)
-    fs.writeFileSync(jsonPath, JSON.stringify(data, null, 2))
+    fs.writeFileSync(jsonPath, JSON.stringify(techs, null, 2))
     console.log('Done')
   })
