@@ -1,4 +1,6 @@
-const findProjectsWithCommonTechs = (techToFind, projects) => {
+const utils = require('./utils')
+
+function findProjectsWithCommonTechs(techToFind, projects) {
   const foundProjects = []
 
   projects.forEach(project => {
@@ -12,10 +14,8 @@ const findProjectsWithCommonTechs = (techToFind, projects) => {
   return foundProjects
 }
 
-const removeDuplicates = array => Array.from(new Set(array))
-
 // Given a tech and a set of projects which have common techs
-const extractRelatedTech = (tech, projectsWithRelatedTechs) => {
+function extractRelatedTech(tech, projectsWithRelatedTechs) {
   // This means that there were some matches
   if (projectsWithRelatedTechs.length > 1) {
     return projectsWithRelatedTechs.reduce((previousProject, currentProject) => {
@@ -26,7 +26,7 @@ const extractRelatedTech = (tech, projectsWithRelatedTechs) => {
       }
 
       relatedTechs.push(...currentProject.techs)
-      const relatedTechsWithoutDuplicates = removeDuplicates(relatedTechs)
+      const relatedTechsWithoutDuplicates = utils.removeDuplicates(relatedTechs)
       const relatedTechsWithoutDuplicatesAndSelf = relatedTechsWithoutDuplicates.filter(e => tech !== e)
       const aggregatedTech = {
         name: tech,
@@ -43,7 +43,7 @@ const extractRelatedTech = (tech, projectsWithRelatedTechs) => {
   }
 }
 
-const extractRelatedTechs = projects => {
+function extractRelatedTechs(projects) {
   const techs = []
   // Loop through projects
   for (let project of projects) {
@@ -57,17 +57,8 @@ const extractRelatedTechs = projects => {
       techs.push(...extractedRelatedTechs)
     }
   }
-  const techsWithoutDuplicates = removeDuplicatesBy(x => x.name, techs)
+  const techsWithoutDuplicates = utils.removeDuplicatesBy(x => x.name, techs)
   return techsWithoutDuplicates
-}
-
-function removeDuplicatesBy(keyFn, array) {
-  let mySet = new Set();
-  return array.filter(function(x) {
-    let key = keyFn(x), isNew = !mySet.has(key);
-    if (isNew) mySet.add(key);
-    return isNew;
-  });
 }
 
 module.exports = {
