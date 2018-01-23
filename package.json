@@ -4,6 +4,7 @@
   "main": "index.mjs",
   "scripts": {
     "start": "browser-sync start --server --files *.css *.js *.html",
+    "generate": "node main.js",
     "test": "jest"
   },
   "license": "MIT",
