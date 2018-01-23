@@ -1,42 +1,3 @@
-const fs = require('fs')
-const csv = require('csvtojson')
-
-const filePath = './data.csv'
-
-function formatData() {
-  const data = []
-  return new Promise(resolve => {
-    csv({ noheader: false, headers: ['project'] })
-      .fromFile(filePath)
-      .on('json', row => {
-        data.push(formatRow(row))
-      })
-      .on('done', err => {
-        resolve(data)
-      })
-  })
-}
-
-function formatRow(row) {
-  const rowElements = Object.values(row)
-  const nonEmptyRow = rowElements.filter(e => e !== '')
-  const formattedRow = {
-    name: nonEmptyRow[0],
-    techs: []
-  }
-
-  formattedRow.techs = nonEmptyRow.slice(1, nonEmptyRow.length)
-  return formattedRow
-}
-
-function writeToJson(data) {
-  return new Promise(resolve => {
-    fs.writeFile('./data.json', JSON.stringify(data, null, 2), (err) => {
-      resolve()
-    })
-  })
-}
-
 const findProjectsWithCommonTechs = (techToFind, projects) => {
   const foundProjects = []
 
@@ -110,13 +71,5 @@ function removeDuplicatesBy(keyFn, array) {
 }
 
 module.exports = {
-  findProjectsWithCommonTechs,
-  extractRelatedTech,
   extractRelatedTechs
 }
-
-formatData()
-  .then(data => {
-    const techs = extractRelatedTechs(data)
-    writeToJson(techs)
-  })
