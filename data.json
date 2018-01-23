@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Spring",
+    "relatedTechs": ["Java"]
+  }, {
+    "name": "Java",
+    "relatedTechs": ["MySQL"]
+  }, {
+    "name": "MySQL",
+    "relatedTechs:": ["Java"]
+  },
+  {
+    "name": "Kotlin",
+    "relatedTechs": ["Java"]
+  }
+]
