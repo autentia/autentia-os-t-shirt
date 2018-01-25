@@ -1,755 +1,731 @@
 [
   {
-    "name": "Agile",
-    "relatedTechs": [
-      "Spring",
-      "Angular",
-      "Java",
-      "JavaScript",
-      "Kibana",
-      "Kafka",
-      "Elasticsearch",
-      "Less",
-      "JMeter",
-      "Scrum",
-      "Sonarqube",
-      "Jenkins"
-    ]
-  },
-  {
-    "name": "Hibernate",
-    "relatedTechs": [
+    "name": "Java",
+    "type": "Back",
+		"relatedTechs": [
+			"Spring",
+			"Angular",
+			"JavaScript",
+			"Kibana",
+			"Kafka",
+			"Elasticsearch",
+			"Less",
+			"JMeter",
+			"Scrum",
+			"Sonarqube",
+			"Jenkins",
       "Agile",
-      "Docker",
-      "JUnit",
-      "Kotlin",
-      "Maven",
-      "MySQL",
-      "Spring",
-      "RabbitMQ",
-      "Nomad",
-      "Spring",
-      "TDD",
-      "Jenkins",
-      "Oracle",
-      "Ansible",
-      "Java",
-      "Kubernetes"
-    ]
-  },
-  {
-    "name": "Docker",
-    "relatedTechs": [
-      "Elasticsearch",
-      "Spring",
-      "Scala",
-      "Oracle",
-      "Maven",
-      "RabbitMQ",
-      "Jenkins",
-      "Kibana",
-      "JUnit"
-    ]
-  },
-  {
-    "name": "JUnit",
-    "relatedTechs": [
-      "Spring",
-      "Angular",
-      "TypeScript",
-      "Jenkins",
-      "Sonarqube",
-      "Ansible",
-      "RxJS",
-      "Hamcrest"
-    ]
-  },
-  {
-    "name": "Kotlin",
-    "relatedTechs": [
-      "Agile",
-      "Hibernate",
-      "Docker",
-      "JUnit",
-      "Maven",
-      "MySQL",
-      "Spring",
-      "RabbitMQ",
-      "Nomad",
-      "Spring",
-      "TDD",
-      "Jenkins",
-      "Oracle",
-      "Ansible",
-      "Java",
-      "Kubernetes"
-    ]
-  },
-  {
-    "name": "Maven",
-    "relatedTechs": [
-      "Elasticsearch",
-      "Spring",
-      "Scala",
-      "Oracle",
-      "Docker",
-      "RabbitMQ",
-      "Jenkins",
-      "Kibana",
-      "JUnit"
-    ]
-  },
-  {
-    "name": "MySQL",
-    "relatedTechs": [
-      "Agile",
-      "Hibernate",
-      "Docker",
-      "JUnit",
-      "Kotlin",
-      "Maven",
-      "Spring",
-      "RabbitMQ",
-      "Nomad",
-      "TDD",
-      "Jenkins",
-      "Oracle",
-      "Ansible",
-      "Java",
-      "Kubernetes",
-      "Scala",
-      "Sonarqube"
-    ]
-  },
-  {
+      "Node"
+		]
+	},
+	{
     "name": "Spring",
-    "relatedTechs": [
-      "Angular",
-      "TypeScript",
-      "Jenkins",
-      "Sonarqube",
-      "Ansible",
-      "RxJS",
-      "JUnit",
-      "Hamcrest"
-    ]
-  },
-  {
-    "name": "RabbitMQ",
-    "relatedTechs": [
-      "Elasticsearch",
-      "Spring",
-      "Scala",
-      "Oracle",
-      "Maven",
-      "Docker",
-      "Jenkins",
-      "Kibana",
-      "JUnit"
-    ]
-  },
-  {
-    "name": "Nomad",
-    "relatedTechs": [
+    "type": "Back",
+		"relatedTechs": [
+			"Angular",
+			"TypeScript",
+			"Jenkins",
+			"Sonarqube",
+			"Ansible",
+			"JUnit",
+			"Hamcrest"
+		]
+	},
+	{
+    "name": "Scala",
+    "type": "Back",
+		"relatedTechs": [
+			"Elasticsearch",
+			"Spring",
+			"Oracle",
+			"Maven",
+			"Docker",
+			"RabbitMQ",
+			"Jenkins",
+			"Kibana",
+			"JUnit"
+		]
+	},
+	{
+    "name": "JMeter",
+    "type": "Back",
+		"relatedTechs": [
+			"Spring",
+			"Angular",
+			"Java",
+			"JavaScript",
+			"Kibana",
+			"Kafka",
+			"Elasticsearch",
+			"Less",
+			"Scrum",
+			"Sonarqube",
+			"Jenkins",
+			"Agile",
+			"Scrum"
+		]
+	},
+	{
+    "name": "Akka",
+    "type": "Back",
+		"relatedTechs": [
+			"Cassandra",
+			"Kafka",
+			"Java",
+			"Scala",
+			"Scrum",
+			"Spring",
+			"Maven"
+		]
+	},
+	{
+    "name": "Elasticsearch",
+    "type": "Back",
+		"relatedTechs": [
+			"Spring",
+			"Angular",
+			"Java",
+			"JavaScript",
+			"Kibana",
+			"Kafka",
+			"Less",
+			"JMeter",
+			"Scrum",
+			"Sonarqube",
+			"Jenkins",
+			"Agile"
+		]
+	},
+	{
+    "name": "Kibana",
+    "type": "Back",
+		"relatedTechs": [
+			"Spring",
+			"Angular",
+			"Java",
+			"JavaScript",
+			"Kafka",
+			"Elasticsearch",
+			"Less",
+			"JMeter",
+			"Scrum",
+			"Sonarqube",
+			"Jenkins",
+			"Agile"
+		]
+	},
+	{
+    "name": "PostgreSQL",
+    "type": "Back",
+		"relatedTechs": [
+			"Kubernetes",
+			"Nomad",
+			"Spring",
+			"Elasticsearch",
+			"Kibana",
+			"Jenkins",
+			"Docker",
+			"Maven",
+			"JUnit",
+			"Scrum"
+		]
+	},
+	{
+    "name": "Cassandra",
+    "type": "Back",
+		"relatedTechs": [
+			"Akka",
+			"Kafka",
+			"Java",
+			"Scala",
+			"Scrum",
+			"Spring",
+			"Maven"
+		]
+	},
+	{
+    "name": "Kafka",
+    "type": "Back",
+		"relatedTechs": [
+			"Akka",
+			"Cassandra",
+			"Java",
+			"Scala",
+			"Scrum",
+			"Spring",
+			"Maven",
+			"Angular",
+			"JavaScript",
+			"Kibana",
+			"Elasticsearch",
+			"Less",
+			"JMeter",
+			"Sonarqube",
+			"Jenkins",
+			"Agile"
+		]
+	},
+	
+	{
+    "name": "Kotlin",
+    "type": "Back",
+		"relatedTechs": [
       "Agile",
-      "Hibernate",
-      "Docker",
-      "JUnit",
-      "Kotlin",
-      "Maven",
-      "MySQL",
-      "Spring",
-      "RabbitMQ",
-      "TDD",
-      "Jenkins",
-      "Oracle",
-      "Ansible",
-      "Java",
-      "Kubernetes",
-      "Elasticsearch",
-      "Kibana",
-      "PostgreSQL",
-      "Scrum"
-    ]
+      "Android",
+			
+			"Docker",
+			"JUnit",
+			"Maven",
+			"MySQL",
+			"RabbitMQ",
+			"Nomad",
+			"Spring",
+			"TDD",
+			"Jenkins",
+			"Oracle",
+			"Ansible",
+			"Java",
+			"Kubernetes"
+		]
+	},
+	{
+    "name": "Maven",
+    "type": "Back",
+		"relatedTechs": [
+			"Elasticsearch",
+			"Spring",
+			"Scala",
+			"Oracle",
+			"Docker",
+			"RabbitMQ",
+			"Jenkins",
+			"Kibana",
+			"JUnit"
+		]
   },
   {
     "name": "TDD",
-    "relatedTechs": [
-      "Agile",
-      "Hibernate",
-      "Docker",
-      "JUnit",
-      "Kotlin",
-      "Maven",
-      "MySQL",
-      "Spring",
-      "RabbitMQ",
-      "Nomad",
-      "Jenkins",
-      "Oracle",
-      "Ansible",
-      "Java",
-      "Kubernetes",
-      "Scala",
-      "Sonarqube"
-    ]
+    "type": "Back",
+		"relatedTechs": [
+			"Agile",
+			
+			"Docker",
+			"JUnit",
+			"Kotlin",
+			"Maven",
+			"MySQL",
+			"Spring",
+			"RabbitMQ",
+			"Nomad",
+			"Jenkins",
+			"Oracle",
+			"Ansible",
+			"Java",
+			"Kubernetes",
+			"Scala",
+      "Sonarqube",
+      "Swift",
+      "Objective-C"
+		]
+	},
+	{
+    "name": "JUnit",
+    "type": "Back",
+		"relatedTechs": [
+			"Spring",
+			"Angular",
+			"TypeScript",
+			"Jenkins",
+			"Sonarqube",
+			"Ansible",
+			"Hamcrest",
+			"Java"
+		]
+	},
+	{
+    "name": "Hamcrest",
+    "type": "Back",
+		"relatedTechs": [
+			"Spring",
+			"Angular",
+			"TypeScript",
+			"Jenkins",
+			"Sonarqube",
+			"Ansible",
+			"JUnit"
+		]
+	},
+	{
+    "name": "MySQL",
+    "type": "Back",
+		"relatedTechs": [
+			"Agile",
+			
+			"Docker",
+			"JUnit",
+			"Kotlin",
+			"Maven",
+			"Spring",
+			"RabbitMQ",
+			"Nomad",
+			"TDD",
+			"Jenkins",
+			"Oracle",
+			"Ansible",
+			"Java",
+			"Kubernetes",
+			"Scala",
+			"Sonarqube"
+		]
+	},
+	{
+    "name": "RabbitMQ",
+    "type": "Back",
+		"relatedTechs": [
+			"Elasticsearch",
+			"Spring",
+			"Scala",
+			"Oracle",
+			"Maven",
+			"Docker",
+			"Jenkins",
+			"Kibana",
+			"JUnit"
+		]
+	},
+	{
+    "name": "Oracle",
+    "type": "Back",
+		"relatedTechs": [
+			"Agile",
+			
+			"Docker",
+			"JUnit",
+			"Kotlin",
+			"Maven",
+			"MySQL",
+			"Spring",
+			"RabbitMQ",
+			"Nomad",
+			"TDD",
+			"Jenkins",
+			"Ansible",
+			"Java",
+			"Kubernetes",
+			"Elasticsearch",
+			"Scala",
+			"Kibana"
+		]
+  },
+  {
+    "name": "Docker",
+    "type": "Infraestructure",
+		"relatedTechs": [
+			"Elasticsearch",
+			"Spring",
+			"Scala",
+			"Oracle",
+			"Maven",
+			"RabbitMQ",
+			"Jenkins",
+			"Kibana",
+			"JUnit"
+		]
+	},
+	{
+    "name": "Kubernetes",
+    "type": "Infraestructure",
+		"relatedTechs": [
+			"Agile",
+			
+			"Docker",
+			"JUnit",
+			"Kotlin",
+			"Maven",
+			"MySQL",
+			"Spring",
+			"RabbitMQ",
+			"Nomad",
+			"TDD",
+			"Jenkins",
+			"Oracle",
+			"Ansible",
+			"Java",
+			"Elasticsearch",
+			"Kibana",
+			"PostgreSQL",
+			"Scrum"
+		]
+	},
+	{
+    "name": "Nomad",
+    "type": "Infraestructure",
+		"relatedTechs": [
+			"Agile",
+			
+			"Docker",
+			"JUnit",
+			"Kotlin",
+			"Maven",
+			"MySQL",
+			"Spring",
+			"RabbitMQ",
+			"TDD",
+			"Jenkins",
+			"Oracle",
+			"Ansible",
+			"Java",
+			"Kubernetes",
+			"Elasticsearch",
+			"Kibana",
+			"PostgreSQL",
+			"Scrum"
+		]
+	},
+	{
+    "name": "Ansible",
+    "type": "Infraestructure",
+		"relatedTechs": [
+			"Agile",
+			
+			"Docker",
+			"JUnit",
+			"Kotlin",
+			"Maven",
+			"MySQL",
+			"Spring",
+			"RabbitMQ",
+			"Nomad",
+			"TDD",
+			"Jenkins",
+			"Oracle",
+			"Java",
+			"Kubernetes",
+			"Angular",
+			"TypeScript",
+			"Sonarqube",
+			"Hamcrest"
+		]
+	},
+  {
+    "name": "Agile",
+    "type": "Agile",
+		"relatedTechs": [
+			"Spring",
+			"Angular",
+			"Java",
+			"JavaScript",
+			"Kibana",
+			"Kafka",
+			"Elasticsearch",
+			"Less",
+			"JMeter",
+			"Scrum",
+			"Sonarqube",
+			"Jenkins"
+		]
+	},
+	{
+    "name": "Less",
+    "type": "Agile",
+		"relatedTechs": [
+			"Scrum",
+			"Agile",
+			"Spring",
+			"Angular",
+			"Java",
+			"JavaScript",
+			"Kibana",
+			"Kafka",
+			"Elasticsearch",
+			"JMeter",
+			"Sonarqube",
+			"Jenkins"
+		]
+	},
+	{
+    "name": "Lean",
+    "type": "Agile",
+		"relatedTechs": [
+			"Sketch",
+			"Invision",
+			"Photoshop",
+			"Illustrator"
+		]
+	},
+	{
+    "name": "Kanban",
+    "type": "Agile",
+		"relatedTechs": [
+			"Photoshop",
+			"Illustrator",
+			"Sketch",
+			"Premiere",
+			"Final cut"
+		]
+	},
+	{
+    "name": "Scrum",
+    "type": "Agile",
+		"relatedTechs": [
+			"Spring",
+			"Angular",
+			"Java",
+			"JavaScript",
+			"Kibana",
+			"Kafka",
+			"Elasticsearch",
+			"Less",
+			"JMeter",
+			"Sonarqube",
+			"Jenkins",
+			"Agile"
+		]
   },
   {
     "name": "Jenkins",
-    "relatedTechs": [
-      "iOS",
-      "Objective-C",
-      "Swift",
-      "Viper",
-      "Cocoapods"
-    ]
-  },
-  {
-    "name": "Oracle",
-    "relatedTechs": [
-      "Agile",
-      "Hibernate",
-      "Docker",
-      "JUnit",
-      "Kotlin",
-      "Maven",
-      "MySQL",
-      "Spring",
-      "RabbitMQ",
-      "Nomad",
-      "TDD",
-      "Jenkins",
-      "Ansible",
-      "Java",
-      "Kubernetes",
-      "Elasticsearch",
-      "Scala",
-      "Kibana"
-    ]
-  },
-  {
-    "name": "Ansible",
-    "relatedTechs": [
-      "Agile",
-      "Hibernate",
-      "Docker",
-      "JUnit",
-      "Kotlin",
-      "Maven",
-      "MySQL",
-      "Spring",
-      "RabbitMQ",
-      "Nomad",
-      "TDD",
-      "Jenkins",
-      "Oracle",
-      "Java",
-      "Kubernetes",
-      "Angular",
-      "TypeScript",
-      "Sonarqube",
-      "RxJS",
-      "Hamcrest"
-    ]
-  },
-  {
-    "name": "Java",
-    "relatedTechs": [
-      "Spring",
-      "Angular",
-      "JavaScript",
-      "Kibana",
-      "Kafka",
-      "Elasticsearch",
-      "Less",
-      "JMeter",
-      "Scrum",
-      "Sonarqube",
-      "Jenkins",
-      "Agile"
-    ]
-  },
-  {
-    "name": "Kubernetes",
-    "relatedTechs": [
-      "Agile",
-      "Hibernate",
-      "Docker",
-      "JUnit",
-      "Kotlin",
-      "Maven",
-      "MySQL",
-      "Spring",
-      "RabbitMQ",
-      "Nomad",
-      "TDD",
-      "Jenkins",
-      "Oracle",
-      "Ansible",
-      "Java",
-      "Elasticsearch",
-      "Kibana",
-      "PostgreSQL",
-      "Scrum"
-    ]
-  },
-  {
-    "name": "Akka",
-    "relatedTechs": [
-      "Cassandra",
-      "Kafka",
-      "Java",
-      "Scala",
-      "Scrum",
-      "Spring",
-      "Maven"
-    ]
-  },
-  {
-    "name": "Cassandra",
-    "relatedTechs": [
-      "Akka",
-      "Kafka",
-      "Java",
-      "Scala",
-      "Scrum",
-      "Spring",
-      "Maven"
-    ]
-  },
-  {
-    "name": "Kafka",
-    "relatedTechs": [
-      "Akka",
-      "Cassandra",
-      "Java",
-      "Scala",
-      "Scrum",
-      "Spring",
-      "Maven",
-      "Angular",
-      "JavaScript",
-      "Kibana",
-      "Elasticsearch",
-      "Less",
-      "JMeter",
-      "Sonarqube",
-      "Jenkins",
-      "Agile"
-    ]
-  },
-  {
-    "name": "Scala",
-    "relatedTechs": [
-      "Elasticsearch",
-      "Spring",
-      "Oracle",
-      "Maven",
-      "Docker",
-      "RabbitMQ",
-      "Jenkins",
-      "Kibana",
-      "JUnit"
-    ]
-  },
-  {
-    "name": "Scrum",
-    "relatedTechs": [
-      "Spring",
-      "Angular",
-      "Java",
-      "JavaScript",
-      "Kibana",
-      "Kafka",
-      "Elasticsearch",
-      "Less",
-      "JMeter",
-      "Sonarqube",
-      "Jenkins",
-      "Agile"
-    ]
-  },
-  {
+    "type": "Back",
+		"relatedTechs": [
+			"iOS",
+			"Objective-C",
+			"Swift",
+			"Viper"
+		]
+	},
+	{
     "name": "Sonarqube",
-    "relatedTechs": [
-      "Spring",
-      "Angular",
-      "TypeScript",
-      "Jenkins",
-      "Ansible",
-      "RxJS",
-      "JUnit",
-      "Hamcrest"
-    ]
-  },
-  {
-    "name": "Elasticsearch",
-    "relatedTechs": [
-      "Spring",
-      "Angular",
-      "Java",
-      "JavaScript",
-      "Kibana",
-      "Kafka",
-      "Less",
-      "JMeter",
-      "Scrum",
-      "Sonarqube",
-      "Jenkins",
-      "Agile"
-    ]
-  },
-  {
-    "name": "Kibana",
-    "relatedTechs": [
-      "Spring",
-      "Angular",
-      "Java",
-      "JavaScript",
-      "Kafka",
-      "Elasticsearch",
-      "Less",
-      "JMeter",
-      "Scrum",
-      "Sonarqube",
-      "Jenkins",
-      "Agile"
-    ]
-  },
-  {
-    "name": "PostgreSQL",
-    "relatedTechs": [
-      "Kubernetes",
-      "Nomad",
-      "Spring",
-      "Elasticsearch",
-      "Kibana",
-      "Jenkins",
-      "Docker",
-      "Maven",
-      "JUnit",
-      "Scrum"
-    ]
-  },
-  {
-    "name": "Less",
-    "relatedTechs": [
-      "Scrum",
-      "Agile",
-      "Spring",
-      "Angular",
-      "Java",
-      "JavaScript",
-      "Kibana",
-      "Kafka",
-      "Elasticsearch",
-      "JMeter",
-      "Sonarqube",
-      "Jenkins"
-    ]
-  },
-  {
-    "name": "Photoshop",
-    "relatedTechs": [
-      "Illustrator",
-      "Sketch",
-      "Adobe Premiere",
-      "Final Cut Pro",
-      "Kanban",
-      "Invision",
-      "Lean",
-      "Design thinking"
-    ]
-  },
-  {
-    "name": "Illustrator",
-    "relatedTechs": [
-      "Photoshop",
-      "Sketch",
-      "Adobe Premiere",
-      "Final Cut Pro",
-      "Kanban",
-      "Invision",
-      "Lean",
-      "Design thinking"
-    ]
-  },
-  {
-    "name": "Sketch",
-    "relatedTechs": [
-      "Ionic",
-      "TypeScript",
-      "RxJS",
-      "Node",
-      "Invision"
-    ]
-  },
-  {
-    "name": "Adobe Premiere",
-    "relatedTechs": [
-      "Photoshop",
-      "Illustrator",
-      "Sketch",
-      "Final Cut Pro",
-      "Kanban"
-    ]
-  },
-  {
-    "name": "Final Cut Pro",
-    "relatedTechs": [
-      "Photoshop",
-      "Illustrator",
-      "Sketch",
-      "Adobe Premiere",
-      "Kanban"
-    ]
-  },
-  {
-    "name": "Kanban",
-    "relatedTechs": [
-      "Photoshop",
-      "Illustrator",
-      "Sketch",
-      "Adobe Premiere",
-      "Final Cut Pro"
-    ]
-  },
-  {
-    "name": "Invision",
-    "relatedTechs": [
-      "Sketch",
-      "Lean",
-      "Photoshop",
-      "Design thinking",
-      "Illustrator",
-      "Ionic",
-      "TypeScript",
-      "RxJS",
-      "Node"
-    ]
-  },
-  {
-    "name": "Lean",
-    "relatedTechs": [
-      "Sketch",
-      "Invision",
-      "Photoshop",
-      "Design thinking",
-      "Illustrator"
-    ]
-  },
-  {
-    "name": "Design thinking",
-    "relatedTechs": [
-      "Sketch",
-      "Invision",
-      "Lean",
-      "Photoshop",
-      "Illustrator"
-    ]
-  },
-  {
-    "name": "Vue",
-    "relatedTechs": [
-      "JavaScript",
-      "GraphQL",
-      "Jenkins"
-    ]
-  },
-  {
+    "type": "Back",
+		"relatedTechs": [
+			"Spring",
+			"Angular",
+			"TypeScript",
+			"Jenkins",
+			"Ansible",
+			"JUnit",
+			"Hamcrest"
+		]
+	},
+	{
     "name": "JavaScript",
-    "relatedTechs": [
-      "Android",
-      "iOS",
-      "Viper",
-      "TypeScript",
-      "Cordova"
-    ]
-  },
-  {
-    "name": "GraphQL",
-    "relatedTechs": [
-      "Vue",
-      "JavaScript",
-      "Jenkins"
-    ]
-  },
-  {
-    "name": "Angular",
-    "relatedTechs": [
-      "Spring",
-      "Java",
-      "JavaScript",
-      "Kibana",
-      "Kafka",
-      "Elasticsearch",
-      "Less",
-      "JMeter",
-      "Scrum",
-      "Sonarqube",
-      "Jenkins",
-      "Agile",
-      "TypeScript",
-      "Ansible",
-      "RxJS",
-      "JUnit",
-      "Hamcrest"
-    ]
-  },
-  {
-    "name": "JMeter",
-    "relatedTechs": [
-      "Spring",
-      "Angular",
-      "Java",
-      "JavaScript",
-      "Kibana",
-      "Kafka",
-      "Elasticsearch",
-      "Less",
-      "Scrum",
-      "Sonarqube",
-      "Jenkins",
-      "Agile",
-      "Scrum"
-    ]
+    "type": "Front",
+		"relatedTechs": [
+			"Android",
+			"iOS",
+			"Viper",
+			"TypeScript",
+			"Cordova"
+		]
   },
   {
     "name": "TypeScript",
-    "relatedTechs": [
-      "Android",
-      "iOS",
-      "Viper",
-      "JavaScript",
-      "Cordova"
-    ]
-  },
-  {
-    "name": "RxJS",
-    "relatedTechs": [
-      "Spring",
-      "Angular",
-      "TypeScript",
-      "Jenkins",
-      "Sonarqube",
-      "Ansible",
-      "JUnit",
-      "Hamcrest",
-      "Ionic",
-      "Node",
-      "Sketch",
-      "Invision"
-    ]
-  },
-  {
-    "name": "Hamcrest",
-    "relatedTechs": [
-      "Spring",
-      "Angular",
-      "TypeScript",
-      "Jenkins",
-      "Sonarqube",
-      "Ansible",
-      "RxJS",
-      "JUnit"
-    ]
-  },
-  {
-    "name": "Ionic",
-    "relatedTechs": [
-      "TypeScript",
-      "RxJS",
-      "Node",
-      "Sketch",
-      "Invision"
-    ]
+    "type": "Front",
+		"relatedTechs": [
+			"Android",
+			"iOS",
+			"Viper",
+			"JavaScript",
+			"Cordova"
+		]
   },
   {
     "name": "Node",
-    "relatedTechs": [
-      "Ionic",
-      "TypeScript",
-      "RxJS",
-      "Sketch",
-      "Invision"
-    ]
+    "type": "Front",
+		"relatedTechs": [
+			"Ionic",
+			"TypeScript",
+			"Sketch",
+			"Invision"
+		]
+	},
+	{
+    "name": "GraphQL",
+    "type": "Front",
+		"relatedTechs": [
+			"Vue",
+			"JavaScript",
+			"Jenkins"
+		]
+	},
+	{
+    "name": "Angular",
+    "type": "Front",
+		"relatedTechs": [
+			"Spring",
+			"Java",
+			"JavaScript",
+			"Kibana",
+			"Kafka",
+			"Elasticsearch",
+			"Less",
+			"JMeter",
+			"Scrum",
+			"Sonarqube",
+			"Jenkins",
+			"Agile",
+			"TypeScript",
+			"Ansible",
+			"JUnit",
+			"Hamcrest"
+		]
+	},
+	{
+    "name": "Vue",
+    "type": "Front",
+		"relatedTechs": [
+			"JavaScript",
+			"GraphQL",
+			"Jenkins"
+		]
   },
   {
     "name": "Android",
-    "relatedTechs": [
-      "iOS",
-      "Viper",
-      "JavaScript",
-      "TypeScript",
-      "Cordova"
-    ]
-  },
-  {
+    "type": "Mobile",
+		"relatedTechs": [
+			"iOS",
+			"Viper",
+			"JavaScript",
+			"TypeScript",
+			"Cordova"
+		]
+	},
+	{
     "name": "iOS",
-    "relatedTechs": [
-      "Android",
-      "Viper",
-      "JavaScript",
-      "TypeScript",
-      "Cordova",
-      "Objective-C",
-      "Swift",
-      "Jenkins",
-      "Cocoapods"
-    ]
+    "type": "Mobile",
+		"relatedTechs": [
+			"Android",
+			"Viper",
+			"JavaScript",
+			"TypeScript",
+			"Cordova",
+			"Objective-C",
+			"Swift",
+			"Jenkins"
+		]
   },
   {
+    "name": "Ionic",
+    "type": "Mobile",
+		"relatedTechs": [
+			"TypeScript",
+			"Node",
+			"Sketch",
+			"Invision"
+		]
+	},
+	{
     "name": "Viper",
-    "relatedTechs": [
-      "Android",
-      "iOS",
-      "JavaScript",
-      "TypeScript",
-      "Cordova",
-      "Objective-C",
-      "Swift",
-      "Jenkins",
-      "Cocoapods"
-    ]
-  },
-  {
+    "type": "Mobile",
+		"relatedTechs": [
+			"Android",
+			"iOS",
+			"JavaScript",
+			"TypeScript",
+			"Cordova",
+			"Objective-C",
+			"Swift",
+			"Jenkins"
+		]
+	},
+	{
     "name": "Cordova",
-    "relatedTechs": [
-      "Android",
-      "iOS",
-      "Viper",
-      "JavaScript",
-      "TypeScript"
-    ]
-  },
-  {
+    "type": "Mobile",
+		"relatedTechs": [
+			"Android",
+			"iOS",
+			"Viper",
+			"JavaScript",
+			"TypeScript"
+		]
+	},
+	{
     "name": "Objective-C",
-    "relatedTechs": [
-      "iOS",
-      "Swift",
-      "Jenkins",
-      "Viper",
-      "Cocoapods"
-    ]
-  },
-  {
+    "type": "Mobile",
+		"relatedTechs": [
+			"iOS",
+			"Swift",
+			"Jenkins",
+			"Viper"
+		]
+	},
+	{
     "name": "Swift",
-    "relatedTechs": [
-      "iOS",
-      "Objective-C",
-      "Jenkins",
-      "Viper",
-      "Cocoapods"
-    ]
+    "type": "Mobile",
+		"relatedTechs": [
+			"iOS",
+			"Objective-C",
+			"Jenkins",
+			"Viper"
+		]
   },
   {
-    "name": "Cocoapods",
-    "relatedTechs": [
-      "iOS",
-      "Objective-C",
-      "Swift",
-      "Jenkins",
-      "Viper"
-    ]
-  }
+    "name": "Photoshop",
+    "type": "UX",
+		"relatedTechs": [
+			"Illustrator",
+			"Sketch",
+			"Premiere",
+			"Final cut",
+			"Kanban",
+			"Invision",
+			"Lean"
+		]
+	},
+	{
+    "name": "Illustrator",
+    "type": "UX",
+		"relatedTechs": [
+			"Photoshop",
+			"Sketch",
+			"Premiere",
+			"Final cut",
+			"Kanban",
+			"Invision",
+			"Lean"
+		]
+	},
+	{
+    "name": "Sketch",
+    "type": "UX",
+		"relatedTechs": [
+			"Ionic",
+			"TypeScript",
+			"Node",
+			"Invision"
+		]
+	},
+	{
+    "name": "Premiere",
+    "type": "UX",
+		"relatedTechs": [
+			"Photoshop",
+			"Illustrator",
+			"Sketch",
+			"Final cut",
+			"Kanban"
+		]
+	},
+	{
+    "name": "Final cut",
+    "type": "UX",
+		"relatedTechs": [
+			"Photoshop",
+			"Illustrator",
+			"Sketch",
+			"Premiere",
+			"Kanban"
+		]
+	},
+	{
+    "name": "Invision",
+    "type": "UX",
+		"relatedTechs": [
+			"Sketch",
+			"Lean",
+			"Photoshop",
+			"Illustrator",
+			"Ionic",
+			"TypeScript",
+			"Node"
+		]
+	}
 ]
