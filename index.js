@@ -1,7 +1,7 @@
 const diameter = 1200
 const radius = diameter / 2
 const innerRadius = radius - 120
-const beta = 0.85
+const beta = 0.3
 const palette = ['#0869ba', '#ba4508', '#eb816e', '#6f7a97', '#e8e2cb']
 
 const cluster = d3.cluster().size([360, innerRadius])
