@@ -2,7 +2,16 @@ const diameter = 1200
 const radius = diameter / 2
 const innerRadius = radius - 120
 const beta = 0.3
-const palette = ['#0869ba', '#ba4508', '#eb816e', '#6f7a97', '#e8e2cb']
+const palette = {
+  ci: '#0869ba',
+  ux: '#9d00b8',
+  back: '#840096',
+  front: '#0778a7',
+  agile: '#cefeff',
+  mobile: '#0aeadb',
+  testing: '#ff00aa',
+  infraestructure: '#ff0db9',
+}
 
 const cluster = d3.cluster().size([360, innerRadius])
 
@@ -16,7 +25,6 @@ const svg = d3.select('body').append('svg')
   .attr('height', diameter)
   .append('g')
   .attr('transform', 'translate(' + radius + ',' + radius + ')')
-
   
   d3.json('data.json', (error, classes) => {
     const root = relatedTechsHierarchy(classes)
@@ -34,20 +42,25 @@ const svg = d3.select('body').append('svg')
     
     let node = svg.append('g').selectAll('.node')
     node
-      .data(root.leaves())
+    .data(root.leaves())
       .enter().append('text')
-        .attr('class', 'node')
-        .attr('dy', '0.31em')
-        .attr('transform', d => `rotate(${d.x - 90}) translate(${d.y + 8},0) ${d.x < 180 ? '' : 'rotate(180)'}`)
-        .attr('text-anchor', d => d.x < 180 ? 'start' : 'end')
-        .text(d => d.data.key)
+      .attr('class', 'node')
+      .attr('dy', '0.31em')
+      .attr('transform', d => `rotate(${d.x - 90}) translate(${d.y + 8},0) ${d.x < 180 ? '' : 'rotate(180)'}`)
+      .attr('text-anchor', d => d.x < 180 ? 'start' : 'end')
+      .text(d => d.data.key)
       
-    d3.selectAll('.link')
-    .each(function(d, i) {
-      d3.select(this)
-      .attr('style', `stroke: ${palette[Math.trunc(Math.random() * palette.length)]};`)
+      d3.selectAll('.link')
+      .each(function(d, i) {
+        d3.select(this)
+        .attr('style', d => `stroke: ${getColor(d[0].data.type)};`)
+        
     })
 })
+
+function getColor(type) {
+  return palette[type.toLowerCase()]
+}
 
 function relatedTechsHierarchy(classes) {
   const map = {}
