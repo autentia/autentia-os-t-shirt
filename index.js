@@ -43,18 +43,18 @@ const svg = d3.select('body').append('svg')
     let node = svg.append('g').selectAll('.node')
     node
     .data(root.leaves())
-      .enter().append('text')
-      .attr('class', 'node')
-      .attr('dy', '0.31em')
-      .attr('transform', d => `rotate(${d.x - 90}) translate(${d.y + 8},0) ${d.x < 180 ? '' : 'rotate(180)'}`)
-      .attr('text-anchor', d => d.x < 180 ? 'start' : 'end')
-      .text(d => d.data.key)
-      
-      d3.selectAll('.link')
-      .each(function(d, i) {
-        d3.select(this)
-        .attr('style', d => `stroke: ${getColor(d[0].data.type)};`)
-        
+    .enter().append('text')
+    .attr('class', 'node')
+    .attr('dy', '0.31em')
+    .attr('style', 'font-family: -apple-system, BlinkMacSystemFont, \'Helvetica Neue\', sans-serif;fill: #eee;letter-spacing: 0.1rem;font: 18px sans-serif;')
+    .attr('transform', d => `rotate(${d.x - 90}) translate(${d.y + 8},0) ${d.x < 180 ? '' : 'rotate(180)'}`)
+    .attr('text-anchor', d => d.x < 180 ? 'start' : 'end')
+    .text(d => d.data.key)
+    
+    d3.selectAll('.link')
+    .each(function(d, i) {
+      d3.select(this)
+        .attr('style', d => `stroke: ${getColor(d[0].data.type)};stroke-opacity: 0.9;stroke-width: 2;fill: none;`)
     })
 })
 
