@@ -54,7 +54,7 @@ const svg = d3.select('body').append('svg')
     d3.selectAll('.link')
     .each(function(d, i) {
       d3.select(this)
-        .attr('style', d => `stroke: ${getColor(d[0].data.type)};stroke-opacity: 0.9;stroke-width: 2;fill: none;`)
+        .attr('style', d => `stroke: ${getColor(d[0].data.type)};stroke-opacity: 1;stroke-width: 46;fill: none;`)
     })
 })
 
